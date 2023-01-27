@@ -1,0 +1,34 @@
+****User names****
+client >>clinic client, patient,visitor
+donor
+doctor
+admin
+****Constraints****
+-no constraints on patient because it might be emergency situation & donor because he will not harm the system
+-visitor constraints is to enter a patient name that really exists in our hospital
+-clinic client and doctor constraints is to enter a valid id, and he/she has 3 chances
+-admin constraints to enter the correct passcode, only one chance
+****clinic client****
+enter name and id range(0:100)
+choose the process
+****patient****
+enter name and room number
+choose the process
+****visitor****
+enter name and patient name
+valid patients: {"ali","ramy","rana","soha","dina"}
+enter visit time to be booked
+****donor****
+no data just instructions appear to the donor to guide him
+****doctor****
+verify id range(0:100)
+enter your patient data
+check for any notifications from any patient
+we have doctors staff for: cold,Internist,Quarantine
+there are constraints on booking a correct appointment
+****admin****
+enter passcode = 4000
+admin checks how many failure access happened and how many user categories we have
+puts constraints on these categories
+
+
